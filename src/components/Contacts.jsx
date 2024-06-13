@@ -29,7 +29,7 @@ const Contacts = () => {
             variant="h4"
             gutterBottom
             align="center"
-            sx={{ marginBottom: "30px", fontSize: "28px" }}
+            sx={{ marginBottom: "30px", fontSize: "22px", textTransform: "uppercase", fontFamily: "Fjalla One"}}
           >
             Contact Us
           </Typography>
@@ -73,6 +73,7 @@ const Contacts = () => {
                     color: "var(--black)",
                     backgroundColor: "var(--light-blue-color)",
                     marginTop: "20px",
+                    fontFamily: "Fjalla One",
                     "&:hover": {
                       backgroundColor: "#fdbb2d",
                     },

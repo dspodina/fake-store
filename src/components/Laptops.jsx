@@ -41,7 +41,7 @@ const Laptops = () => {
           minHeight: "100vh",
         }}
       >
-        <Typography sx={{ marginBottom: "30px", fontSize: "28px" }}>
+        <Typography sx={{ marginBottom: "30px", fontSize: "22px", textTransform: "uppercase", fontFamily: "Fjalla One" }}>
           Our Products
         </Typography>
 

@@ -15,7 +15,7 @@ const About = () => {
           gap: 2,
         }}
       >
-        <Typography align="center" gutterBottom sx={{fontSize: "28px"}}>
+        <Typography align="center" gutterBottom sx={{fontSize: "22px", textTransform: "uppercase", fontFamily: "Fjalla One"}}>
           About Fake Store
         </Typography>
         <Typography variant="body1" align="center">
