@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import Badge from "@mui/material/Badge";
 import Box from "@mui/material/Box";
 import CircularProgress from "@mui/material/CircularProgress";
+import Container from "@mui/material/Container";
 
 const Laptops = () => {
   const [smartphones, setSmartphones] = useState([]);
@@ -29,26 +30,29 @@ const Laptops = () => {
   }, []);
 
   return (
-    <Box
-      sx={{
-        display: "flex",
-        justifyContent: "center",
-        minHeight: "100vh",
-      }}
-    >
+    <Container>
       <Box
         sx={{
-          maxWidth: "lg",
-          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          marginTop: "120px",
+          minHeight: "100vh",
         }}
       >
+        <Typography sx={{ marginBottom: "30px", fontSize: "28px" }}>
+          Our Products
+        </Typography>
+
         <Box
           sx={{
             display: "flex",
             flexWrap: "wrap",
             gap: "20px",
             justifyContent: "center",
-            margin: "100px 0 50px",
+            maxWidth: "lg",
+            width: "100%",
           }}
         >
           {loading ? (
@@ -157,7 +161,7 @@ const Laptops = () => {
           )}
         </Box>
       </Box>
-    </Box>
+    </Container>
   );
 };
 

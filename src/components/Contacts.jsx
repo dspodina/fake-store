@@ -14,18 +14,23 @@ const Contacts = () => {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
+        marginTop: "50px",
       }}
     >
       <Card
         sx={{
           maxWidth: 500,
-          padding: 4,
+          padding: 2,
           borderRadius: "10px",
-          marginTop: "40px",
         }}
       >
         <CardContent>
-          <Typography variant="h4" gutterBottom align="center">
+          <Typography
+            variant="h4"
+            gutterBottom
+            align="center"
+            sx={{ marginBottom: "30px", fontSize: "28px" }}
+          >
             Contact Us
           </Typography>
           <form>
@@ -65,9 +70,12 @@ const Contacts = () => {
                   type="submit"
                   variant="contained"
                   sx={{
-                    color: "var( --black)",
-                    backgroundColor: "var( --light-blue-color)",
+                    color: "var(--black)",
+                    backgroundColor: "var(--light-blue-color)",
                     marginTop: "20px",
+                    "&:hover": {
+                      backgroundColor: "#fdbb2d",
+                    },
                   }}
                 >
                   Submit

@@ -11,11 +11,11 @@ const About = () => {
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
-          minHeight: "100vh",
+          height: "100vh",
           gap: 2,
         }}
       >
-        <Typography variant="h4" align="center" gutterBottom>
+        <Typography align="center" gutterBottom sx={{fontSize: "28px"}}>
           About Fake Store
         </Typography>
         <Typography variant="body1" align="center">
