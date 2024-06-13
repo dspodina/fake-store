@@ -37,7 +37,7 @@ const Header = ({ title }) => {
           <Toolbar
             sx={{ display: "flex", justifyContent: "flex-end", width: "auto" }}
           >
-            <Box sx={{ display: "flex", gap: 2 }}>
+            <Box sx={{ display: "flex", gap: 3 }}>
               <Link
                 href="/"
                 sx={{
