@@ -37,7 +37,7 @@ const Laptops = () => {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          marginTop: "120px",
+          margin: "120px 0",
           minHeight: "100vh",
         }}
       >
